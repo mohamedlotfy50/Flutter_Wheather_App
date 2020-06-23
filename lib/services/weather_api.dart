@@ -4,7 +4,8 @@ import 'package:location/location.dart';
 import 'package:weather/models/weather_data_model.dart';
 
 class WeatherApi {
-  final String apiKey = ''; //TODO: please add your api key to make the app work
+  final String apiKey =
+      'the api key'; //TODO: please add your api key to make the app work
   Location location = Location();
   LocationData _locationData;
 
